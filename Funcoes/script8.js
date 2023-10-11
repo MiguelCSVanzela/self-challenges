@@ -33,9 +33,11 @@ function ocorrentes(arr){
         }
     }
 
-    return elemento; 
+    return [elemento, maxContagem]; 
 }
 
+let resultadoFrequencia = ocorrente(transformaArray(numeros)); 
+
 btnVerificarOcorrente.addEventListener("click", () => {
-    campoOcorrentes.innerHTML = `O número mais ocorrente foi ${ocorrentes(transformaArray(numeros))}`; 
+    campoOcorrentes.innerHTML = `O número mais ocorrente foi ${resultadoFrequencia[0]} e apareceu ${resultadoFrequencia[1]}`; 
 })
