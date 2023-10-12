@@ -10,3 +10,8 @@
 .hover:hover{
     cursor: crosshair; 
 }
+
+
+.selecionado{
+    background-color: lightpink; 
+}
