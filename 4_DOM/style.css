@@ -1,0 +1,8 @@
+.campoClasse{
+    background-color: lightcoral;
+    padding: 20px;  
+}
+
+.active {
+    background-color: lightgreen; 
+}
