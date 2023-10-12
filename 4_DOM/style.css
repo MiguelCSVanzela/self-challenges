@@ -15,3 +15,20 @@
 .selecionado{
     background-color: lightpink; 
 }
+
+#myModal{
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    height: 100%; 
+    width: 100%; 
+    display: none;
+    background-color: rgba(0, 0, 0, .4); 
+}
+
+#modal{
+   height: 200px; 
+   width: 400px; 
+   background-color: white;
+   margin: 15% auto;
+}
