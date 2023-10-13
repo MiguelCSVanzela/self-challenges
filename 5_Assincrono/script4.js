@@ -10,7 +10,7 @@ const campoResultado = document.querySelector("#campoPromise");
 function simularApi(valor, tempo){
     let value = valor.value; 
     let time = parseInt(tempo.value)
-    return new Promise((resolve) => g{
+    return new Promise((resolve) => {
         setTimeout(() => {
             resolve(value)
         }, time * 1000); 
